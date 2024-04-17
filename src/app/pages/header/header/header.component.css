@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid;
+    height: 10vh;
+    display: flex;
+
+}
+.left{
+    border: 2px solid;
+    height: 100%;
+    display: flex;
+    flex: 1;
+
+}
+.center{
+    border: 2px solid;
+    height: 100%;
+    display: flex;
+    flex: 14;
+}
+.right{
+    border: 2px solid;
+    height: 100%;
+    display: flex;
+    flex: 2;
+}
