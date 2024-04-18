@@ -4,27 +4,53 @@
     box-sizing: border-box;
 }
 header{
-    border: 2px solid;
     height: 10vh;
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+    background-color: #212429;
 }
 .left{
     border: 2px solid;
     height: 100%;
     display: flex;
     flex: 1;
+    background-color: aliceblue;
 
 }
+
 .center{
-    border: 2px solid;
     height: 100%;
     display: flex;
     flex: 14;
+    justify-content: end;
+    align-items: center;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.menu li:last-child {
+    margin-right: 0; 
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fcc505; 
+    font-weight: bold; 
 }
 .right{
     border: 2px solid;
     height: 100%;
     display: flex;
     flex: 2;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
