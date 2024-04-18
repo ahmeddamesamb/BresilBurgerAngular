@@ -13,6 +13,7 @@ main{
     border: 1px solid green;
     height: 100%;
     width: 100%;
+display: flex;
 }
 .titre{
   height: 10vh;
@@ -38,4 +39,9 @@ font-family: 'Times New Roman', Times, serif;
   font-size: 1rem;
   font-weight: bold;
 font-family: 'Times New Roman', Times, serif;
+}
+.p-card{
+  height: 10vh;
+  width: 10vw;
+
 }

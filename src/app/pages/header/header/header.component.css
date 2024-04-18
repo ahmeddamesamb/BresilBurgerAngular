@@ -19,8 +19,8 @@ header{
 
 }
 .left span img{
-  height: 48px;
-  width: 48px;
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -51,6 +51,8 @@ header{
     text-decoration: none;
     color: #f9c10f;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 .right{
     height: 100%;
