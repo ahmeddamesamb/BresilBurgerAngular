@@ -4,25 +4,32 @@
     box-sizing: border-box;
 }
 header{
-    height: 10vh;
+    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #212429;
 }
 .left{
-    border: 2px solid;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
-    background-color: aliceblue;
 
 }
-
+.left span img{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .center{
     height: 100%;
     display: flex;
-    flex: 14;
+    flex: 20;
     justify-content: end;
     align-items: center;
 }
@@ -33,24 +40,23 @@ header{
 
 .menu li {
     display: inline;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .menu li:last-child {
-    margin-right: 0; 
+    margin-right: 0;
 }
 
 .menu li a {
     text-decoration: none;
-    color: #fcc505; 
-    font-weight: bold; 
+    color: #f9c10f;
+    font-weight: bold;
 }
 .right{
-    border: 2px solid;
     height: 100%;
     display: flex;
     flex: 2;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
