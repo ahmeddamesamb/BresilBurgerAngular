@@ -2,9 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 header{
-    height: 5vh;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +17,8 @@ header{
     justify-content: center;
     align-items: center;
     flex: 1;
-
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .left span img{
   height: 45px;
@@ -25,6 +27,8 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .center{
     height: 100%;
@@ -32,6 +36,8 @@ header{
     flex: 20;
     justify-content: end;
     align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .menu {
     list-style-type: none;
@@ -60,5 +66,7 @@ header{
     flex: 2;
     align-items: center;
     justify-content: space-evenly;
+    box-sizing: border-box;
+    overflow: hidden;
 
 }

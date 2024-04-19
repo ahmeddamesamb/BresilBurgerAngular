@@ -7,6 +7,7 @@ main{
     height: 90vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 
 }
 .main{
@@ -48,6 +49,6 @@ font-family: 'Times New Roman', Times, serif;
   overflow: hidden;
 }.card-img-top {
   width: 100%; /* Pour que l'image remplisse complètement la largeur de la carte */
-  height: 15vh; /* Permet à l'image de conserver son ratio hauteur/largeur */
+  height: 20vh; /* Permet à l'image de conserver son ratio hauteur/largeur */
   display: block; /* Ajuste la disposition de l'image */
 }
