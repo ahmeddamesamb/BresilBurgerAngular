@@ -40,8 +40,12 @@ font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
 font-family: 'Times New Roman', Times, serif;
 }
-.p-card{
-  height: 10vh;
-  width: 10vw;
 
+.card{
+  width: 10rem;;
+  overflow: hidden;
+}.card-img-top {
+  width: 100%; /* Pour que l'image remplisse complètement la largeur de la carte */
+  height: 15vh; /* Permet à l'image de conserver son ratio hauteur/largeur */
+  display: block; /* Ajuste la disposition de l'image */
 }
